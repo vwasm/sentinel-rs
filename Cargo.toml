@@ -12,8 +12,9 @@ publish = false
 
 [dependencies]
 ewasm_api = "0.5"
+libchisel = { git = "https://github.com/wasmx/wasm-chisel" }
 pwasm-utils = { path = "wasm-utils" }
-parity-wasm = "0.31"
+parity-wasm = "0.35.2"
 
 [lib]
 crate-type = ["cdylib"]
